@@ -1,0 +1,27 @@
+
+.cabecalho{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-image: linear-gradient(to left, #197ee4, #66ccff);
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.cabecalho h2{
+  font-family: 'Fredericka the Great', cursive;
+  color: rgb(255, 255, 255);
+}
+.nav__links{
+  display: flex;
+}
+
+li{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 2.5rem;
+  list-style-type: none;
+}
