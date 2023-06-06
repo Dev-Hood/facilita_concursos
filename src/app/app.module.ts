@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { MouseSlideComponent } from './componentes/home/mouse-slide/mouse-slide.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
-    HomeComponent
+    HomeComponent,
+    MouseSlideComponent
   ],
   imports: [
     BrowserModule,

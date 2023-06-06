@@ -1,0 +1,32 @@
+.mouse-slide{
+  min-height: 150vh;
+  background-color: bisque;
+}
+.slider-imgs{
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 30px;
+  padding: 0 30px;
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+.card{
+  width: 30%;
+  position: relative;
+  background-color: aquamarine;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgb(96, 96, 129);
+}
+.card .image{
+  width: 100%;
+  object-fit: contain;
+}
+.slider-btns{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
