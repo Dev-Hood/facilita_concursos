@@ -3,27 +3,49 @@
   background-color: bisque;
 }
 .slider-imgs{
-  display: flex;
-  justify-content: space-evenly;
-
+  height: 40vw;
   gap: 30px;
   padding: 0 30px;
   padding-top: 150px;
   margin-bottom: 60px;
 }
 .card{
+  transition: all 1s;
+  opacity: 0.5;
   width: 30%;
-  position: relative;
+  position: absolute;
   background-color: aquamarine;
   padding: 10px 20px;
   border-radius: 20px;
   box-shadow: 3px 3px 5px rgb(96, 96, 129);
 }
+.card .description {
+  opacity: 0;
+  transition: all 1s;
+}
+.card:nth-child(3){
+  right: 15%;
+  z-index: 0;
+}
+.card:nth-child(2){
+  right: 35%;
+  z-index: 1;
+}
+.card:nth-child(1){
+  left: 13%;
+  z-index: 2;
+}
 .card .image{
   width: 100%;
   object-fit: contain;
 }
+.apres{
+  opacity: 1;
+  z-index: 4 !important;
+  transform: scale(1.1);
+}
 .slider-btns{
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   gap: 20px;
